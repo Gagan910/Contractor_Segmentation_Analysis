@@ -1,4 +1,0 @@
-echo "streamlit" > requirements.txt
-echo "pandas" >> requirements.txt
-echo "seaborn" >> requirements.txt
-echo "matplotlib" >> requirements.txt
