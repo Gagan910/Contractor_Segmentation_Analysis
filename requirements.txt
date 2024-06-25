@@ -3,4 +3,4 @@ seaborn
 matplotlib
 streamlit
 mysql.connector
-os
+
