@@ -1,6 +1,6 @@
 # Contractor_Segmentation_Analysis
 
-This project analyzes contractor data based on user-defined criteria, using Python for data processing and visualization.
+This project analyzes contractor data based on user-defined criteria, using Python for data analysis and visualization.
 
 # App Link
 https://contractorsegmentationanalysis-qn4cz4uefk3lxq9izcnvgp.streamlit.app/
