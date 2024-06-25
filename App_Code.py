@@ -5,7 +5,7 @@ import streamlit as st
 
 class ContractorAnalysis:
     def __init__(self, csv_file_path):
-        self.df = pd.read_csv("S:\Projects\Contractor_Segmentation_analysis\CONTRACT_DATA_ANALYSIS.csv")
+        self.df = pd.read_csv("S:\\Projects\\Contractor_Segmentation_analysis\\CONTRACT_DATA_ANALYSIS.csv")
         self.user_inputs = {}
         self.filtered_df = pd.DataFrame()
 
@@ -117,7 +117,7 @@ class ContractorAnalysis:
 
 def main():
     st.title("Contractor Segmentation Analysis")
-    csv_file_path = '"S:\Projects\Contractor_Segmentation_analysis\CONTRACT_DATA_ANALYSIS.csv"'
+    csv_file_path = '"S:\\Projects\\Contractor_Segmentation_analysis\\CONTRACT_DATA_ANALYSIS.csv"'
     analysis = ContractorAnalysis(csv_file_path)
     
     analysis.display_initial_data()
