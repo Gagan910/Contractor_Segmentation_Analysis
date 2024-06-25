@@ -117,7 +117,7 @@ class ContractorAnalysis:
 
 def main():
     st.title("Contractor Segmentation Analysis")
-    csv_file_path = 'S:/Projects/Contractor_Segmentation_analysis/CONTRACT_DATA_ANALYSIS.csv'
+    csv_file_path = '"S:\Projects\Contractor_Segmentation_analysis\CONTRACT_DATA_ANALYSIS.csv"'
     analysis = ContractorAnalysis(csv_file_path)
     
     analysis.display_initial_data()
